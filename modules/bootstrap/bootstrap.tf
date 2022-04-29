@@ -14,6 +14,7 @@ resource "aws_s3_bucket" "state_bucket" {
       }
     }
   }
+  
 
   # Prevents Terraform from destroying or replacing this object - a great safety mechanism
   lifecycle {
